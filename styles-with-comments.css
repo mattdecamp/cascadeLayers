@@ -5,12 +5,12 @@
 */
 /* Define major layers */
 
-@layer reset, defaults, themes, layouts, compoonents, utilities;
+@layer reset, defaults, themes, layouts, components, utilities;
 
 /* Import stylesheets */
 
-@import url("reset.css") layer(reset);
-@import url("defaults.css") layer(defaults);
+@import url("./src/styles/reset.css") layer(reset);
+@import url("./src/styles/defaults.css") layer(defaults);
 /*
 * Then within default.css are defined sublayers imported in a similar fashion
 
@@ -27,7 +27,7 @@
 etc...
 *
 */
-@import url("themes.css") layer(themes);
+@import url("./src/styles/themes.css") layer(themes);
 /*
 
 // Define them...
@@ -42,11 +42,11 @@ etc...
 etc...
 *
 */
-@import url("layouts.css") layer(layouts);
+@import url("./src/styles/layouts.css") layer(layouts);
 /* etc... */
-@import url("components.css") layer(componenets);
+@import url("./src/styles/components.css") layer(componenets);
 /* etc... */
-@import url("utilities.css") layer(utilities);
+@import url("./src/styles/utilities.css") layer(utilities);
 /* etc... */
 
 /* Unlayered styles go here */
