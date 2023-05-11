@@ -1,0 +1,58 @@
+/*
+*
+* Thinking out loud here with a boilerplate for making CSS cascade layers a default part of all my front-end projects moving forward.
+*
+*/
+/* Define major layers */
+
+@layer reset, defaults, themes, layouts, compoonents, utilities;
+
+/* Define sub-layers by each major where applicable */
+
+/* Import stylesheets */
+
+@import url("reset.css") layer(reset);
+@import url("defaults.css") layer(defaults);
+/*
+* Then within default.css are defined sublayers imported in a similar fashion
+
+// Define them...
+
+@layer layout, colors, fonts, typography, links;
+
+// Import them...
+
+@import url(./defaults/layout.css) layer(layout)
+@import url(./defaults/colors.css) layer(colors)
+@import url(.defaults/fonts.css) layer(fonts)
+
+etc...
+*
+*/
+@import url("themes.css") layer(themes);
+/*
+
+// Define them...
+
+@layer light, dark;
+
+// Import them...
+
+@import url(.themes/light.css) layer(light)
+@import url(.themes/dark.css) layer(dark)
+
+etc...
+*
+*/
+@import url("layouts.css") layer(layouts);
+/* etc... */
+@import url("components.css") layer(componenets);
+/* etc... */
+@import url("utilities.css") layer(utilities);
+/* etc... */
+
+/* Unlayered styles go here */
+
+.my-most-important-style {
+  color: royalblue;
+}
