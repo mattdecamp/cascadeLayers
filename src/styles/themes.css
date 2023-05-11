@@ -1,0 +1,4 @@
+@layer light, dark;
+
+@import url("./src/styles/themes/light.css") layer(light);
+@import url("./src/styles/themes/dark.css") layer(dark);

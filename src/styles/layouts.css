@@ -1,0 +1,6 @@
+@layer main, page, blog, post;
+
+@import url("./src/styles/layouts/main.css") layer(main);
+@import url("./src/styles/layouts/page.css") layer(page);
+@import url("./src/styles/layouts/blog.css") layer(blog);
+@import url("./src/styles/layouts/post.css") layer(post);
