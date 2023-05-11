@@ -1,0 +1,19 @@
+/* Define major layers */
+
+@layer reset, defaults, themes, layouts, components, utilities;
+
+/* Import major layer stylesheets */
+
+@import url("./styles/reset.css") layer(reset);
+@import url("./styles/defaults.css") layer(defaults);
+@import url("./styles/themes.css") layer(themes);
+@import url("./styles/layouts.css") layer(layouts);
+@import url("./styles/components.css") layer(components);
+@import url("./styles/utilities.css") layer(utilities);
+
+/* Unlayered styles go here */
+
+.my-most-important-style {
+  color: royalblue;
+}
+
