@@ -1,7 +1,7 @@
 @layer layout, typography, colors, fonts, links;
 
-@import url("./src/styles/defaults/layout.css") layer(layout);
-@import url("./src/styles/defaults/typography.css") layer(typography);
-@import url("./src/styles/defaults/colors.css") layer(colors);
-@import url("./src/styles/defaults/fonts.css") layer(fonts);
-@import url("./src/styles/defaults/links.css") layer(links);
+@import url("./defaults/layout.css") layer(layout);
+@import url("./defaults/typography.css") layer(typography);
+@import url("./defaults/colors.css") layer(colors);
+@import url("./defaults/fonts.css") layer(fonts);
+@import url("./defaults/links.css") layer(links);

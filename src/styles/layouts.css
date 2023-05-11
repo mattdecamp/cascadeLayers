@@ -1,6 +1,6 @@
 @layer main, page, blog, post;
 
-@import url("./src/styles/layouts/main.css") layer(main);
-@import url("./src/styles/layouts/page.css") layer(page);
-@import url("./src/styles/layouts/blog.css") layer(blog);
-@import url("./src/styles/layouts/post.css") layer(post);
+@import url("./layouts/main.css") layer(main);
+@import url("./layouts/page.css") layer(page);
+@import url("./layouts/blog.css") layer(blog);
+@import url("./layouts/post.css") layer(post);

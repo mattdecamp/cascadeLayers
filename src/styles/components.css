@@ -1,8 +1,8 @@
 @layer header, footer, card, form, aside, article;
 
-@import url("./src/styles/components/header.css") layer(header);
-@import url("./src/styles/components/footer.css") layer(footer);
-@import url("./src/styles/components/card.css") layer(card);
-@import url("./src/styles/components/form.css") layer(form);
-@import url("./src/styles/components/aside.css") layer(aside);
-@import url("./src/styles/components/article.css") layer(article);
+@import url("./components/header.css") layer(header);
+@import url("./components/footer.css") layer(footer);
+@import url("./components/card.css") layer(card);
+@import url("./components/form.css") layer(form);
+@import url("./components/aside.css") layer(aside);
+@import url("./components/article.css") layer(article);

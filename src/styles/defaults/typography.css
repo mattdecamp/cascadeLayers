@@ -1,0 +1,5 @@
+/* Text stylings */
+
+h1 {
+  color: var(--h1-color-default);
+}
