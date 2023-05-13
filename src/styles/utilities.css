@@ -1,4 +1,5 @@
 @layer sizes, space, sr;
 
+@import url("./utilities/sizes.css") layer(sizes);
 @import url("./utilities/spaces.css") layer(space);
 @import url("./utilities/sr.css") layer(sr);
